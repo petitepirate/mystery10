@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { LOAD_FILM } from "./types";
 
-
+// Function that gets film data from API and creates arrays of characters and planets IDs
 function getFilmFromAPI(id) {
   return async function (dispatch) {
     const res = await axios.get(`https://swapi.dev/api/films/${id}/`);

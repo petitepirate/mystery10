@@ -2,7 +2,7 @@ import { LOAD_PLANET, RESET_ALL } from "../actions/types";
 
 const INITIAL_STATE = {};
 
-
+// planets reducer
 function planets(state = INITIAL_STATE, action) {
   switch (action.type) {
     case RESET_ALL:

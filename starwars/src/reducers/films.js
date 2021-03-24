@@ -2,7 +2,7 @@ import { LOAD_FILM, RESET_ALL } from "../actions/types";
 
 const INITIAL_STATE = {};
 
-
+// film reducer
 function films(state = INITIAL_STATE, action) {
   switch (action.type) {
     case RESET_ALL:

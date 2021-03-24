@@ -8,6 +8,7 @@ import Planet from "./Planet";
 import Person from "./Person";
 import HomePage from "./HomePage";
 
+// Function with all routes used in the app
 function Routes() {
   return (
     <Switch>
